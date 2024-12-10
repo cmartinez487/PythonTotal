@@ -72,8 +72,8 @@ for item in myDic:
 '''
 
 #loop while
-monedas = 5
 '''
+monedas = 5
 while monedas>0:
     print(f"tienes {monedas} monedas")
     monedas -= 1
@@ -210,7 +210,7 @@ match num1>num2:
     case _:
         print(f"{num1} y {num2} son iguales")
         
-'''
+        
 cliente = {'nombre':'Carlos', 'edad':37, 'ocupacion': 'Programador'}
 pelicula = {'titulo':'Matrix', 'fichaTecnica':{'protagonista':'Keanu Reeves',
                                                'director':'Hermanas Wachoski'}}
@@ -231,5 +231,7 @@ for e in elementos:
             print(f'Datos de la Pelicula: '
                   f'Titulo: {titulo}, Protagonista: {protagonista}, Director: {director}')
         case _:
-            print("sepa dios que es esto...")
+            print("sepa dios que es esto...")       
+'''
+
 
